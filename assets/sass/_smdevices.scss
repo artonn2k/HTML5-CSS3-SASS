@@ -1,0 +1,85 @@
+header .menu li a:hover{
+    border-radius: 0px;
+}
+
+.home-text p{
+    width: 70%;
+    text-align: center;
+}
+
+.office-number,
+.office-time{
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.office-number h3,
+.office-time h3{
+    font-size: 12px;
+}
+
+.office-number p,
+.office-time p{
+    font-size: 14px;
+    // text-align: center;
+}
+
+.arrow .scroll{
+    display: none;
+}
+
+.home-content h1{
+    font-size: 30px;
+    padding: 10px 10px;
+    line-height: 30px;
+}
+
+.timing{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.box{
+    width: 100%;
+    margin: 20px 0px !important;
+    padding: 0px 20px;
+    flex-grow: 1;
+
+        img{
+            height: 100px;
+            width: 100%;
+            object-fit: contain;
+        }
+}
+
+.box-container .box a{
+    margin-bottom: 6px;
+}
+
+.services-heading{
+    margin: 20px;
+
+        h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+        p{
+            width: 100%;
+        }
+}
+
+footer{
+    padding: 0px;
+    flex-direction: column;
+
+        p{
+            font-size: 14px;
+            text-align: center;
+        }
+        a{
+            font-size: 14px;
+            text-align: center;
+        }
+}

@@ -33,27 +33,57 @@ nav .menu-icon{
     padding: 28px 20px;
     position: relative;
     user-select: none;
-}
-nav .menu-icon .nav-icon{
-    // background-color: $ligtblue;
-    content: url('../img/bars-solid.svg');
-    display: block;
-    height: 18px;
-    position: relative;
-    transition: background 0.2s ease-out;
-    width: 18px;
-}
 
-nav.menu-icon .nav-icon:before
-nav.menu-icon .nav-icon:after{
-    // background: #333333;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all ease-out 0.2s;
-    width: 100%;        
+    .nav-icon{
+        // background-color: $ligtblue;
+        content: url('../img/bars-solid.svg');
+        display: block;
+        height: 18px;
+        position: relative;
+        transition: background 0.2s ease-out;
+        width: 18px;
+
+        // &:before{
+        //     // background: #333333;
+        //     // content: url('../img/bars-solid.svg');
+        //     display: block;
+        //     height: 100%;
+        //     position: absolute;
+        //     transition: all ease-out 0.2s;
+        //     width: 100%;        
+        // }
+
+        // &:after{
+        //     // background: #333333;
+        //     // content: url('../img/bars-solid.svg');
+        //     display: block;
+        //     height: 100%;
+        //     position: absolute;
+        //     transition: all ease-out 0.2s;
+        //     width: 100%;        
+        // }
+    }
 }
+// nav .menu-icon .nav-icon{
+//     // background-color: $ligtblue;
+//     content: url('../img/bars-solid.svg');
+//     display: block;
+//     height: 18px;
+//     position: relative;
+//     transition: background 0.2s ease-out;
+//     width: 18px;
+// }
+
+// nav.menu-icon .nav-icon:before
+// nav.menu-icon .nav-icon:after{
+//     // background: #333333;
+//     content: url('../img/bars-solid.svg');
+//     display: block;
+//     height: 100%;
+//     position: absolute;
+//     transition: all ease-out 0.2s;
+//     width: 100%;        
+// }
 // nav .menu-icon .nav-icon:before{
 //     top: 5px;
 // }
